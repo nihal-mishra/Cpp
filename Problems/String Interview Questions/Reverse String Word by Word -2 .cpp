@@ -19,7 +19,7 @@ void rev(char word[],int len)
 
 int main()
 {
-    char str[100],word[50],re[100]="";
+    char str[1000],word[500],re[1000]="";
     int count=0;
     cout<<"\nEnter a String\t::\t";
     gets(str);
