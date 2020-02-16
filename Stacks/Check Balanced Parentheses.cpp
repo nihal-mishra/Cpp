@@ -26,6 +26,7 @@ bool check(char *ex, int len)
             {
                 return false;
             }
+        
             else
             stk.pop();
         }
