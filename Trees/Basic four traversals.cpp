@@ -89,15 +89,13 @@ void levelorder(node *root)
 
 int main()
 {
-    rootptr=insert(rootptr,100);
-    rootptr=insert(rootptr,103);
-    rootptr=insert(rootptr,104);
-    rootptr=insert(rootptr,1032);
-    rootptr=insert(rootptr,1048);
-    rootptr=insert(rootptr,1044);
-    rootptr=insert(rootptr,89);
-    rootptr=insert(rootptr,30);
-    rootptr=insert(rootptr,85);
+    rootptr=insert(rootptr,10);
+    rootptr=insert(rootptr,5);
+    rootptr=insert(rootptr,6);
+    rootptr=insert(rootptr,1);
+    rootptr=insert(rootptr,3);
+    rootptr=insert(rootptr,2);
+    rootptr=insert(rootptr,4);
     cout<<endl;
     cout<<"\nINORDER \t::\t";
     inorder(rootptr);
