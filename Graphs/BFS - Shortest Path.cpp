@@ -41,7 +41,6 @@ class Graph
         int *parent = new int[V]{-1};
         bool *visited = new bool[V]{0};
         int *distance = new int[V]{0};
-        
         qu.push(source);
         visited[source]=true;
         parent[source]=-1;
