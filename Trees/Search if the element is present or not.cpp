@@ -9,26 +9,20 @@ node *rootptr=NULL;
 
 node *add(int data)
 {
-    node *nn=new node;
-    nn->data=data;
-    nn->left=nn->right=NULL;
-    return nn;
+    node *newNode=new node;
+    newNode->data=data;
+    newNode->left=newNode->right=NULL;
+    return newNode;
 }
 
 node *insert(node *n,int data)
 {
     if(n==NULL)
-    {
         n=add(data);
-    }
     else if(n->data > data)
-    {
         n->left=insert(n->left,data);
-    }
     else
-    {
         n->right=insert(n->right,data);
-    }
     return n;
 }
 

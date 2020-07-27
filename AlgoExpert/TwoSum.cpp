@@ -25,7 +25,7 @@ void TwoSumNN(int *arr, int len, int target)    // O(N^2)
             break;
         }
     }
-    cout<<endl<<x<<" + "<<y<<" = "<<target<<endl;
+    cout<<endl<<y<<" + "<<x<<" = "<<target<<endl;
 }
 
 void TwoSumN(int *arr, int len, int target)      // Time - O(N) and Space - O(N)
@@ -53,9 +53,9 @@ void TwoSumN(int *arr, int len, int target)      // Time - O(N) and Space - O(N)
     }
 }
 
-void TwoSumNlogN(int *arr, int len, int target)
+void TwoSumNlogN(int *arr, int len, int target)  // Time - O(NlogN)
 {
-    sort(arr[0],arr[len-1]);
+    sort(arr,arr+len);
     int l=0;
     int r=len-1;
 
