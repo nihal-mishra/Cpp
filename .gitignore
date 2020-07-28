@@ -198,3 +198,6 @@ Graphs/.vscode/tasks.json
 .gitignore
 Stacks/ArrayImplementation copy.cpp
 Stacks/ArrayImplementation.cpp alias
+AlgoExpert/.vscode/launch.json
+AlgoExpert/.vscode/settings.json
+AlgoExpert/.vscode/tasks.json

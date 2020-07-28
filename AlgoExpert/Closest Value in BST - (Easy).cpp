@@ -79,17 +79,19 @@ int main()
     rootptr = NULL;
     rootptr=insert(rootptr,10);
     rootptr=insert(rootptr,5);
-    rootptr=insert(rootptr,6);
-    rootptr=insert(rootptr,1);
-    rootptr=insert(rootptr,8);
+    rootptr=insert(rootptr,15);
     rootptr=insert(rootptr,2);
-    rootptr=insert(rootptr,4);
+    rootptr=insert(rootptr,5);
+    rootptr=insert(rootptr,13);
+    rootptr=insert(rootptr,22);
+    rootptr=insert(rootptr,1);
+    rootptr=insert(rootptr,14);
     cout<<endl;
     cout<<"\nINORDER \t::\t";
     inorder(rootptr);
     cout<<endl;
     cout<<endl;
-    int tar = 5;
+    int tar = 12;
     Closest_Value(rootptr, tar);
     
 }
